@@ -1,15 +1,24 @@
 // Selectores
+const titulo = document.getElementById('titulo')
 
+// const fuentes = document.getElementsByClassName('font-bold')
+// const titulo2 = document.querySelector('#titulo')
+// console.log(titulo)
+// console.log(titulo2)
+// console.log(fuentes)
+
+// const image = document.querySelector('#img')
 
 // Cambiar contenido de un elemento
-// elemento.textContent = "Nuevo contenido";
+// titulo.textContent = "Ayudantía Ingeniería de Software";
+
 
 // Cambiar el atributo de un elemento
-// imagen.setAttribute("src", "nueva-imagen.png");
+// image.setAttribute("src", "https://cdn-icons-png.flaticon.com/512/6132/6132221.png");
 
 // Cambiar la clase de un elemento
-// changeClass.classList.add("nueva-clase");
-// changeClass.classList.remove("clase-a-remover");
+// titulo.classList.remove("text-4xl");
+titulo.classList.add("text-red-500");
 
 
 // Crear un nuevo elemento al DOM
